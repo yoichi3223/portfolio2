@@ -30,7 +30,6 @@
 }
 .kaishagaiyou h3{
   padding:10px 0;
-
   margin-left:50px ;
   border-bottom:solid blue 2px;
   display: inline-block;
@@ -41,4 +40,58 @@
 }
 .jigyo-list{
   margin-bottom:20px;
+}
+
+
+#contact{
+  background-image: url("images/beach.jpg");
+  min-height: 90vh;
+  width: 100vw;
+  padding:50px 0 0 150px;
+}
+
+#contact h2{
+  font-size: 70px;
+}
+
+form{
+  margin-top:50px;
+}
+.contact-list{
+  margin-bottom:20px;
+}
+
+.contact-list p{
+  margin-bottom:20px;
+  font-size: 30px;
+  font-weight: 600;
+}
+
+input[type = "text"],
+input[type="email"],
+textarea{
+background: rgba(255,255,255,.5);
+border:1px #fff solid;
+border-radius: 5px;
+font-size: 1rem;
+padding:10px;
+}
+
+input[type="text"],
+input[type="email"]{
+  width:100%;
+  max-width: 240px;
+}
+textarea{
+  width:100%;
+  max-width:480px;
+  height: 6rem;
+}
+input[type = "submit"]{
+  width:100%;
+  max-width: 200px;
+  color: white;
+  background: #0bd;
+  padding:10px;
+  border-radius: 5px;
 }

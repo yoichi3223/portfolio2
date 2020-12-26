@@ -128,6 +128,27 @@ padding-left:50px;
 
 
 }
-iframe{
+.map-width{
   width: 100%;
+}
+
+/* ここからSNS */
+#sns{
+  padding:4% 0;
+  background: #FAF7F0;
+}
+
+#sns .wrapper{
+  display: flex;
+  justify-content: space-between;
+   
+}
+.sns-box{
+  width:30%;
+  margin:0 auto;
+  text-align: center;
+}
+.sns-box h2{
+  margin-bottom:30px;
+  border-bottom: blue solid 1px;
 }
